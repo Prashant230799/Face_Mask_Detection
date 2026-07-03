@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Models and large artifacts
+models/*.h5
+models/*.keras
+models/*.ckpt
+models/*.pth
+
+# Dataset images (keep CSV labels but ignore raw images if large)
+dataset/images/
+
+# VS Code
+.vscode/
